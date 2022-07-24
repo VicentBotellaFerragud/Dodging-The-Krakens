@@ -1,0 +1,63 @@
+body {
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+/*Header style*/
+
+.header {
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+/*Play area style*/
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 30px);
+    padding: 5px;
+    gap: 5px;
+    border: 1px solid #ccc;
+    background-color: #14c6f3;
+}
+
+.cell {
+    height: 30px;
+}
+
+.enemy,
+.player {
+    width: 100%;
+    height: 100%;
+}
+
+.enemy {
+    background-image: url('img/kraken.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.enemy img {
+    width: 5px;
+}
+
+.player {
+    background-image: url('img/boat.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*Instructions section style*/
+
+.intructions {
+    margin: 15px;
+    text-align: center;
+}
